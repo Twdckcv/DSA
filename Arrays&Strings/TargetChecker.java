@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class TargetChecker {
 
-    // Assume you will implement this method
     public static boolean checkForTarget(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;

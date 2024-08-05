@@ -4,8 +4,8 @@
 #include <ctype.h>
 
 // strlen - computes the length of a string, not including the terminating null character --> #include <string.h>
-// isalnum - 
-// strcspn - 
+// strcspn - scans a string for the first occurrence of any of the characters that are part of a specified set, returning the number
+//           of characters of the initial segment of the string which do not contain any of the characters from the specified set
 
 bool checkIfPalindrome(char *s) {
     int left = 0;
